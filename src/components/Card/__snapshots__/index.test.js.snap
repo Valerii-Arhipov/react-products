@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="product"
+    className="card__photo"
+    src="images/products/image-aqua.png"
+  />
+  <div
+    className="card__info-block"
+  >
+    <div
+      className="card__votes-block"
+    >
+      <img
+        alt="arrow"
+        aria-hidden="true"
+        className="card_arrow"
+        onClick={[Function]}
+        src="images/ui/arrow.png"
+      />
+      <p
+        className="card__text card__text--count"
+      >
+        40
+      </p>
+    </div>
+    <p
+      className="card__text card__text--title"
+    >
+      Yellow Pail
+    </p>
+    <p
+      className="card__text"
+    >
+      On-demand sand castle construction expertise.
+    </p>
+    <div
+      className="card__votes-block"
+    >
+      <p
+        className="card__text card__text--submitted"
+      >
+        Submitted by:
+      </p>
+      <img
+        alt="avatar"
+        className="card__avatar"
+        src="images/avatars/daniel.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;

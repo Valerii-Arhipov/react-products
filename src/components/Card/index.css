@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.card__photo {
+    width: 200px;
+    height: auto;
+}
+.card__info-block {
+    padding: 10px;
+}
+.card__arrow {
+    width: 20px;
+    height: auto;
+}
+.card__votes-block {
+    display: flex;
+    align-items: center;
+    min-width: 70px;
+}
+.card__text {
+    font-size: 14px;
+    text-align: left;
+}
+.card__text--count {
+    font-weight: bold;
+    color: cornflowerblue;
+}
+.card__text--title {
+    font-weight: bold;
+}
+.card__text--submitted {
+    color: darkgrey;
+    margin-right: 10px;
+}
+.card__avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
